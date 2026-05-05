@@ -1,0 +1,6 @@
+[submodule "aethron-backend"]
+	path = aethron-backend
+	url = https://github.com/AethronLabs/aethron-backend.git
+[submodule "aethron-app"]
+	path = aethron-app
+	url = https://github.com/AethronLabs/aethron-app.git
