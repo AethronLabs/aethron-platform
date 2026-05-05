@@ -8,7 +8,7 @@ Upload a spec. Generate commands. Ship a CLI to GitHub in minutes.
 
 <br/>
 
-<video src="https://pub-791252e542b34b9b85d72f368c5c362f.r2.dev/root-layer1.mp4" controls width="100%"></video>
+<video src="https://github.com/AethronLabs/aethron-platform/raw/master/root-layer1.mp4" controls width="100%"></video>
 
 <br/>
 
@@ -51,7 +51,7 @@ No boilerplate. No manual CLI wiring. Just a spec in and a working CLI out.
 
 ## Demo
 
-<video src="https://pub-791252e542b34b9b85d72f368c5c362f.r2.dev/root-layer1.mp4" controls width="100%"></video>
+<video src="https://github.com/AethronLabs/aethron-platform/raw/master/root-layer1.mp4" controls width="100%"></video>
 
 ---
 
