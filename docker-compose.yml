@@ -1,27 +1,10 @@
 services:
-  postgres:
-    image: postgres:16-alpine
-    environment:
-      POSTGRES_USER: aethron
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-      POSTGRES_DB: aethron
-    volumes:
-      - postgres_data:/var/lib/postgresql/data
-    healthcheck:
-      test: ["CMD-SHELL", "pg_isready -U aethron"]
-      interval: 5s
-      timeout: 5s
-      retries: 10
-
   backend:
     build: ./aethron-backend
-    depends_on:
-      postgres:
-        condition: service_healthy
     ports:
       - "3000:3000"
     environment:
-      DATABASE_URL: postgresql://aethron:${POSTGRES_PASSWORD}@postgres:5432/aethron
+      DATABASE_URL: ${DATABASE_URL}
       PORT: 3000
       JWT_SECRET: ${JWT_SECRET}
       SUPABASE_URL: ${SUPABASE_URL}
@@ -47,6 +30,3 @@ services:
       - "8080:8080"
     depends_on:
       - backend
-
-volumes:
-  postgres_data:
