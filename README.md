@@ -55,9 +55,25 @@ No boilerplate. No manual CLI wiring. Just a spec in and a working CLI out.
 
 ---
 
+## Platform Support
+
+> **Note: Currently tested and supported on macOS only.**
+>
+> The live sandbox feature spins up Docker containers at runtime and communicates via the Docker socket (`/var/run/docker.sock`). This works out of the box with Docker Desktop on macOS.
+>
+> | Platform | Docker Compose | Sandbox feature |
+> |----------|---------------|-----------------|
+> | macOS | ✅ | ✅ |
+> | Linux | ✅ | ⚠️ May need manual socket permissions (`chmod 666 /var/run/docker.sock`) |
+> | Windows | ✅ | ⚠️ Requires WSL2 + Docker Desktop; socket path may differ |
+>
+> Linux and Windows support is not officially tested. Contributions welcome.
+
+---
+
 ## Quick Start
 
-**Requirements:** Docker + Docker Compose
+**Requirements:** Docker + Docker Compose (macOS recommended)
 
 ```bash
 git clone --recurse-submodules https://github.com/AethronLabs/aethron-platform.git
