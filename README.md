@@ -122,7 +122,8 @@ Copy `.env.example` → `.env` and fill in all values.
 └──────────────────────┘         └────────────┬───────────┘
                                                │
                                   ┌────────────▼───────────┐
-                                  │       PostgreSQL        │
+                                  │        Supabase        │
+                                  │    (DB + Auth JWT)     │
                                   └────────────────────────┘
                                                │
                               ┌────────────────┼──────────────────┐
@@ -140,7 +141,7 @@ Copy `.env.example` → `.env` and fill in all values.
 | Layer | Tech |
 |-------|------|
 | API | Rust · Axum · SQLx · Tokio |
-| Database | PostgreSQL |
+| Database | Supabase (PostgreSQL) |
 | Auth | Supabase JWT |
 | AI | OpenAI API |
 | Storage | Cloudflare R2 |
