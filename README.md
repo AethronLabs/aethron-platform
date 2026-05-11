@@ -8,13 +8,14 @@ Upload a spec. Generate commands. Ship a CLI to GitHub in minutes.
 
 <br/>
 
-[▶ Watch Demo](https://pub-791252e542b34b9b85d72f368c5c362f.r2.dev/root-layer1.mp4)
+[![▶ Watch Demo](https://img.shields.io/badge/▶%20Watch%20Demo-Click%20to%20Play-red?style=for-the-badge)](https://pub-791252e542b34b9b85d72f368c5c362f.r2.dev/root-layer1.mp4)
 
 <br/>
 
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](./LICENSE)
 [![Backend](https://img.shields.io/badge/backend-Rust-orange)](https://github.com/AethronLabs/aethron-backend)
 [![App](https://img.shields.io/badge/app-Expo%20%2F%20React%20Native-blueviolet)](https://github.com/AethronLabs/aethron-app)
+[![CI](https://github.com/AethronLabs/aethron-platform/actions/workflows/ci.yml/badge.svg)](https://github.com/AethronLabs/aethron-platform/actions/workflows/ci.yml)
 
 </div>
 
@@ -51,7 +52,7 @@ No boilerplate. No manual CLI wiring. Just a spec in and a working CLI out.
 
 ## Demo
 
-[▶ Watch Demo](https://pub-791252e542b34b9b85d72f368c5c362f.r2.dev/root-layer1.mp4)
+[![▶ Watch Demo](https://img.shields.io/badge/▶%20Watch%20Demo-Click%20to%20Play-red?style=for-the-badge)](https://pub-791252e542b34b9b85d72f368c5c362f.r2.dev/root-layer1.mp4)
 
 ---
 
