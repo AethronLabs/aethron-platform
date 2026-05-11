@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+
+jobs:
+  validate:
+    name: Validate docker-compose
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Check compose config
+        run: |
+          cp .env.example .env
+          docker compose config --quiet
