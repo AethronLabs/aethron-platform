@@ -97,7 +97,7 @@ Copy `.env.example` → `.env` and fill in all values.
 
 | Variable | Where to get it |
 |----------|----------------|
-| `POSTGRES_PASSWORD` | Set any strong password |
+| `DATABASE_URL` | Supabase dashboard → Project Settings → Database → Connection string (URI) |
 | `JWT_SECRET` | Any long random string |
 | `SUPABASE_URL` | Supabase dashboard → Project Settings → API |
 | `SUPABASE_JWT_SECRET` | Supabase dashboard → Project Settings → API |
